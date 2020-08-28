@@ -117,7 +117,7 @@ def play(board)
     end
   if won?(board)
     puts "Congratulations #{winner(board)}!"
-  else
+  else #ommitted using the "draw?" method because the only possible situation this else occurs is on a draw, so no need to check for it
     puts "Cat's Game!"
   end
 end
